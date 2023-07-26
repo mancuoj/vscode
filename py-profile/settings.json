@@ -1,0 +1,37 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "editor.cursorBlinking": "smooth",
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.fontSize": 22,
+    "editor.tabSize": 4,
+    "editor.mouseWheelZoom": true,
+    "editor.fontFamily": "'Dank Mono','霞鹜文楷 GB 屏幕阅读版 R'",
+    "editor.lineHeight": 2.4,
+    "terminal.integrated.fontFamily": "Mononoki NF",
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.lineHeight": 1.8,
+    "terminal.integrated.cursorStyle": "underline",
+    "editor.guides.indentation": false,
+    "editor.suggestSelection": "first",
+    "editor.minimap.enabled": false,
+    "editor.suggest.insertMode": "replace",
+    "editor.inlineSuggest.enabled": true,
+    "workbench.editor.tabCloseButton": "left",
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredLightColorTheme": "Default Light Modern",
+    "workbench.preferredDarkColorTheme": "Default Dark Modern",
+    "window.zoomLevel": 1.2,
+}
