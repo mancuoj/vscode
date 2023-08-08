@@ -1,4 +1,85 @@
 {
+  "workbench.settings.applyToAllProfiles": [
+    "editor.cursorBlinking",
+    "editor.smoothScrolling",
+    "editor.cursorSmoothCaretAnimation",
+    "workbench.list.smoothScrolling",
+    "terminal.integrated.smoothScrolling",
+
+    "window.menuBarVisibility",
+    "window.autoDetectColorScheme",
+    "workbench.editor.tabCloseButton",
+    "workbench.activityBar.visible",
+    "workbench.startupEditor",
+    "workbench.tree.expandMode",
+
+    "editor.find.addExtraSpaceOnTop",
+    "editor.renderWhitespace",
+    "editor.suggestSelection",
+    "editor.suggest.insertMode",
+    "editor.mouseWheelZoom",
+    "editor.linkedEditing",
+    "editor.dragAndDrop",
+    "editor.fontLigatures",
+    "editor.lineNumbers",
+    "editor.minimap.enabled",
+    "editor.stickyScroll.enabled",
+    "editor.inlineSuggest.enabled",
+    "editor.accessibilitySupport",
+    "editor.unicodeHighlight.invisibleCharacters",
+    "editor.hover.sticky",
+    "editor.quickSuggestions",
+
+    "explorer.confirmDelete",
+    "explorer.confirmDragAndDrop",
+    "workbench.editor.closeOnFileDelete",
+    "workbench.editor.highlightModifiedTabs",
+    "workbench.editor.limit.enabled",
+    "workbench.editor.limit.perEditorGroup",
+    "workbench.editor.limit.value",
+    "files.eol",
+    "files.insertFinalNewline",
+    "files.simpleDialog.enable",
+    "git.untrackedChanges",
+    "javascript.updateImportsOnFileMove.enabled",
+    "typescript.updateImportsOnFileMove.enabled",
+    "security.workspace.trust.enabled",
+    "scm.diffDecorationsGutterWidth",
+    "debug.onTaskErrors",
+    "diffEditor.ignoreTrimWhitespace",
+    "search.exclude",
+
+    "terminal.integrated.cursorBlinking",
+    "terminal.integrated.cursorStyle",
+    "terminal.integrated.tabs.enabled",
+    "terminal.integrated.fontFamily",
+    "terminal.integrated.fontSize",
+    "terminal.integrated.lineHeight",
+    "terminal.integrated.enableMultiLinePasteWarning",
+    "terminal.integrated.persistentSessionReviveProcess",
+
+    "extensions.autoUpdate",
+    "extensions.ignoreRecommendations",
+    "git.autofetch",
+    "git.confirmSync",
+    "git.enableSmartCommit",
+    "github.copilot.enable",
+
+    "explorer.fileNesting.enabled",
+    "explorer.fileNesting.expand",
+    "explorer.fileNesting.patterns",
+
+    "gitlens.codeLens.authors.enabled",
+    "gitlens.codeLens.enabled",
+    "gitlens.codeLens.recentChange.enabled",
+    "gitlens.menus",
+
+    "prettier.semi",
+    "prettier.singleQuote",
+    "prettier.trailingComma",
+    "prettier.printWidth"
+  ],
+
   /********************************** Smooth **********************************/
   "editor.cursorBlinking": "smooth",
   "editor.smoothScrolling": true,
@@ -7,19 +88,21 @@
   "terminal.integrated.smoothScrolling": true,
 
   /********************************** Regular **********************************/
+  "window.menuBarVisibility": "compact",
+  "window.autoDetectColorScheme": true,
+  "workbench.editor.tabCloseButton": "left",
+  "workbench.activityBar.visible": true,
+  "workbench.startupEditor": "none",
+  "workbench.tree.expandMode": "singleClick",
+
   "editor.find.addExtraSpaceOnTop": false,
   "editor.renderWhitespace": "none",
   "editor.suggestSelection": "first",
   "editor.suggest.insertMode": "replace",
+  "editor.mouseWheelZoom": true,
   "editor.linkedEditing": true,
   "editor.dragAndDrop": false,
-  "editor.fontFamily": "'Dank Mono','霞鹜文楷 GB 屏幕阅读版 R'",
-  // "editor.fontFamily": "'Zed Mono','JetBrainsMonoNL NFM','MonoLisa Trial', 'Maple UI','Dank Mono','Input Mono', 'Maple Mono SC NF'",
-  "editor.fontSize": 20,
-  "editor.tabSize": 2,
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
-  "editor.lineHeight": 2,
-  "editor.mouseWheelZoom": true,
   "editor.lineNumbers": "interval",
   "editor.minimap.enabled": false,
   "editor.stickyScroll.enabled": true,
@@ -27,15 +110,10 @@
   "editor.accessibilitySupport": "off",
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.hover.sticky": true,
-  "editor.guides.indentation": false,
-  "editor.guides.highlightActiveIndentation": "always",
-  "editor.guides.bracketPairs": false,
-  "editor.guides.bracketPairsHorizontal": "active",
-  "editor.guides.highlightActiveBracketPair": true,
-  "editor.bracketPairColorization.enabled": false,
   "editor.quickSuggestions": {
     "strings": true
   },
+
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "workbench.editor.closeOnFileDelete": true,
@@ -141,9 +219,9 @@
       "stash": true
     }
   },
-  "symbols.hidesExplorerArrows": false,
   "typeChallenges.defaultLanguage": "zh",
   "typeChallenges.workspaceFolder": "/home/mancuoj/h/fe/src/z/type-challenges",
+  "symbols.hidesExplorerArrows": false,
 
   /********************************** cSpell **********************************/
   "cSpell.allowCompoundWords": true,
@@ -154,6 +232,7 @@
     "astexplorer",
     "astro",
     "bazel",
+    "btns",
     "btop",
     "bumpp",
     "changelogithub",
@@ -191,6 +270,7 @@
     "gtop",
     "guang",
     "Hola",
+    "HTMX",
     "httpie",
     "iconify",
     "IIFE",
@@ -236,7 +316,9 @@
     "pylance",
     "pypi",
     "pyproject",
+    "pytailwindcss",
     "pytest",
+    "pyupgrade",
     "repr",
     "roboto",
     "rspack",
@@ -250,6 +332,7 @@
     "svgr",
     "synthwave",
     "Tabler",
+    "tada",
     "tailwindcss",
     "taze",
     "tldr",
@@ -284,6 +367,7 @@
     "windi",
     "Wirfs",
     "withdrwa",
+    "wtforms",
     "xiaohongshu",
     "zoxide"
   ],
@@ -292,7 +376,7 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
-    "//": "Last update at 7/25/2023, 10:51:20 PM",
+    "//": "Last update at 8/6/2023, 11:45:33 PM",
     "*.asax": "$(capture).*.cs, $(capture).*.vb",
     "*.ascx": "$(capture).*.cs, $(capture).*.vb",
     "*.ashx": "$(capture).*.cs, $(capture).*.vb",
@@ -401,22 +485,28 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
   /********************************** Appearance **********************************/
-  "window.menuBarVisibility": "compact",
-  "window.autoDetectColorScheme": true,
-  "workbench.editor.tabCloseButton": "left",
-  "workbench.activityBar.visible": true,
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.tree.expandMode": "singleClick",
+  "editor.fontFamily": "'Dank Mono','霞鹜文楷 GB 屏幕阅读版 R'",
+  // "editor.fontFamily": "'Zed Mono','JetBrainsMonoNL NFM','MonoLisa Trial', 'Maple UI','Dank Mono','Input Mono', 'Maple Mono SC NF'",
+  "editor.fontSize": 20,
+  "editor.tabSize": 2,
+  "editor.lineHeight": 2,
+  "editor.guides.indentation": false,
+  "editor.guides.highlightActiveIndentation": "always",
+  "editor.guides.bracketPairs": false,
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.bracketPairColorization.enabled": false,
+
   "workbench.productIconTheme": "icons-carbon",
   "workbench.preferredLightColorTheme": "Default Light Modern",
   "workbench.preferredDarkColorTheme": "Evondev Dracula High Contrast",
   "workbench.iconTheme": "symbols",
-  "workbench.colorTheme": "Evondev Dracula High Contrast"
+  "workbench.colorTheme": "Evondev Dracula High Contrast",
 }
