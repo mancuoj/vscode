@@ -221,7 +221,6 @@
   },
   "typeChallenges.defaultLanguage": "zh",
   "typeChallenges.workspaceFolder": "/home/mancuoj/h/fe/src/z/type-challenges",
-  "symbols.hidesExplorerArrows": false,
 
   /********************************** cSpell **********************************/
   "cSpell.allowCompoundWords": true,
@@ -243,6 +242,7 @@
     "codebases",
     "codecov",
     "configurability",
+    "CSDIY",
     "csfive",
     "ctop",
     "daisyui",
@@ -291,6 +291,7 @@
     "kbit",
     "kbps",
     "keyof",
+    "keyup",
     "labuladong",
     "leetcode",
     "lenet",
@@ -341,6 +342,7 @@
     "todomvc",
     "Todos",
     "tokei",
+    "trunc",
     "tsbuildinfo",
     "tsch",
     "tsdoc",
@@ -349,6 +351,9 @@
     "Udemy",
     "uintptr",
     "Uncapitalize",
+    "uncurry",
+    "uncurrying",
+    "unmarshalled",
     "unocss",
     "unplugin",
     "Unshift",
@@ -376,7 +381,7 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
-    "//": "Last update at 8/6/2023, 11:45:33 PM",
+    "//": "Last update at 8/31/2023, 10:10:14 PM",
     "*.asax": "$(capture).*.cs, $(capture).*.vb",
     "*.ascx": "$(capture).*.cs, $(capture).*.vb",
     "*.ashx": "$(capture).*.cs, $(capture).*.vb",
@@ -492,11 +497,11 @@
   },
 
   /********************************** Appearance **********************************/
-  "editor.fontFamily": "'Dank Mono','霞鹜文楷 GB 屏幕阅读版 R'",
-  // "editor.fontFamily": "'Zed Mono','JetBrainsMonoNL NFM','MonoLisa Trial', 'Maple UI','Dank Mono','Input Mono', 'Maple Mono SC NF'",
+  "editor.fontFamily": "'Dank Mono', '霞鹜文楷 GB 屏幕阅读版 R' ",
+  // "editor.fontFamily": ",'朱雀仿宋（预览测试版）' ,  'JetBrainsMonoNL NFM',,   'Zed Mono'  'JetBrainsMonoNL NFM'  'MonoLisa Trial'  'Maple UI','Dank Mono','Input Mono', 'Maple Mono SC NF'",
   "editor.fontSize": 20,
   "editor.tabSize": 2,
-  "editor.lineHeight": 2,
+  "editor.lineHeight": 2.2,
   "editor.guides.indentation": false,
   "editor.guides.highlightActiveIndentation": "always",
   "editor.guides.bracketPairs": false,
@@ -507,6 +512,7 @@
   "workbench.productIconTheme": "icons-carbon",
   "workbench.preferredLightColorTheme": "Default Light Modern",
   "workbench.preferredDarkColorTheme": "Evondev Dracula High Contrast",
-  "workbench.iconTheme": "symbols",
-  "workbench.colorTheme": "Evondev Dracula High Contrast",
+  "workbench.colorTheme": "Default Light Modern",
+  "workbench.iconTheme": "file-icons",
+  "window.zoomLevel": 1
 }
