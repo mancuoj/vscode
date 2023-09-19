@@ -1,15 +1,15 @@
 {
-  "editor.fontFamily": "GoMono Nerd Font Mono, 霞鹜文楷",
+  "editor.fontFamily": "Operator Mono Lig, 苹方-简, GoMono Nerd Font Mono, 霞鹜文楷",
+  "editor.fontLigatures": true,
   "editor.fontSize": 22,
-  "editor.tabSize": 2,
   "editor.lineHeight": 2.2,
-
+  "editor.tabSize": 2,
   "editor.mouseWheelZoom": true,
   "editor.lineNumbers": "interval",
   "editor.guides.indentation": false,
   "editor.guides.bracketPairs": false,
- 
-  "terminal.integrated.fontFamily": "Mononoki Nerd Font Mono, 霞鹜文楷",
+
+  "terminal.integrated.fontFamily": "Mononoki Nerd Font Mono, 苹方-简",
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.lineHeight": 1.1,
   "terminal.integrated.cursorStyle": "line",
@@ -25,7 +25,6 @@
   "explorer.confirmDelete": false,
   "security.workspace.trust.enabled": false,
   "window.menuBarVisibility": "compact",
-  "workbench.editor.tabCloseButton": "left",
   "workbench.startupEditor": "none",
   "workbench.editor.closeOnFileDelete": true,
 
@@ -39,12 +38,27 @@
   "editor.quickSuggestions": {
     "strings": true
   },
-
+  
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
   "prettier.printWidth": 200,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "isort.args": ["--profile", "black"],
+
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
 
   "search.exclude": {
     "**/.git": true,
@@ -65,8 +79,11 @@
     "**/yarn.lock": true
   },
 
+  "git.confirmSync": false,
+  "git.autofetch": false,
+
   "workbench.productIconTheme": "icons-carbon",
   "workbench.colorTheme": "GitHub Dark Default",
   "workbench.iconTheme": "file-icons",
-  "window.zoomLevel": 1.8,
+  "window.zoomLevel": 2,
 }
