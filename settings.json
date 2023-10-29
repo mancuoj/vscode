@@ -1,8 +1,9 @@
 {
-  "editor.fontFamily": "Operator Mono Lig, 苹方-简, GoMono Nerd Font Mono, 霞鹜文楷",
+  "editor.fontFamily": "终端更纱黑体-简 Nerd, JetBrainsMono Nerd Font, FiraCode Nerd Font Mono, Operator Mono Lig, 苹方-简, GoMono Nerd Font Mono, Agave Nerd Font Mono, 霞鹜文楷",
+  "editor.fontWeight": "500",
   "editor.fontLigatures": true,
   "editor.fontSize": 22,
-  "editor.lineHeight": 2.2,
+  "editor.lineHeight": 2.45,
   "editor.tabSize": 2,
   "editor.mouseWheelZoom": true,
   "editor.lineNumbers": "interval",
@@ -38,7 +39,7 @@
   "editor.quickSuggestions": {
     "strings": true
   },
-  
+
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.semi": false,
   "prettier.singleQuote": true,
@@ -52,12 +53,13 @@
     }
   },
   "isort.args": ["--profile", "black"],
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
 
   "github.copilot.enable": {
     "*": true,
-    "plaintext": false,
-    "markdown": true,
-    "scminput": false
+    "plaintext": false
   },
 
   "search.exclude": {
@@ -82,8 +84,10 @@
   "git.confirmSync": false,
   "git.autofetch": false,
 
-  "workbench.productIconTheme": "icons-carbon",
-  "workbench.colorTheme": "GitHub Dark Default",
-  "workbench.iconTheme": "file-icons",
-  "window.zoomLevel": 2,
+  "cSpell.userWords": ["antfu", "autofetch", "elif", "esbenp", "isort", "mancuoj", "Mononoki", "nametag", "nuxt", "scminput", "sicp", "tailwindcss", "taze", "tmpl", "vitepress", "vitesse"],
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.colorTheme": "Moegi Space",
+  "symbols.hidesExplorerArrows": false,
+  "workbench.iconTheme": "symbols",
+  "window.zoomLevel": 1
 }
