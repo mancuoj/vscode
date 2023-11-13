@@ -1,9 +1,10 @@
 {
-  "editor.fontFamily": "终端更纱黑体-简 Nerd, JetBrainsMono Nerd Font, FiraCode Nerd Font Mono, Operator Mono Lig, 苹方-简, GoMono Nerd Font Mono, Agave Nerd Font Mono, 霞鹜文楷",
-  "editor.fontWeight": "500",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 22,
-  "editor.lineHeight": 2.45,
+  // Neon Argon Xenon Radon Krypton
+  "editor.fontFamily": "'Monaspace Neon', 霞鹜文楷",
+  "editor.fontWeight": "600",
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
+  "editor.fontSize": 25,
+  "editor.lineHeight": 2.4,
   "editor.tabSize": 2,
   "editor.mouseWheelZoom": true,
   "editor.lineNumbers": "interval",
@@ -39,12 +40,17 @@
   "editor.quickSuggestions": {
     "strings": true
   },
+  "diffEditor.ignoreTrimWhitespace": true,
+
 
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
   "prettier.printWidth": 200,
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true,
@@ -54,8 +60,28 @@
   },
   "isort.args": ["--profile", "black"],
   "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.tabSize": 4,
+    "editor.fontFamily": "'Monaspace Argon', 霞鹜文楷"
   },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.tabSize": 4,
+    "editor.fontFamily": "'Monaspace Argon', 霞鹜文楷"
+  },
+  "[go.mod]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "go.formatTool": "gofumpt",
+  "go.lintTool": "golangci-lint",
+  "go.inlayHints.constantValues": true,
+  "go.inlayHints.parameterNames": true,
+  "go.inlayHints.rangeVariableTypes": true,
+  "go.inlayHints.assignVariableTypes": true,
+  "go.inlayHints.compositeLiteralFields": true,
+  "go.inlayHints.compositeLiteralTypes": true,
+  "go.inlayHints.functionTypeParameters": true,
+ 
 
   "github.copilot.enable": {
     "*": true,
@@ -84,10 +110,45 @@
   "git.confirmSync": false,
   "git.autofetch": false,
 
-  "cSpell.userWords": ["antfu", "autofetch", "elif", "esbenp", "isort", "mancuoj", "Mononoki", "nametag", "nuxt", "scminput", "sicp", "tailwindcss", "taze", "tmpl", "vitepress", "vitesse"],
+  "cSpell.userWords": [
+    "antfu",
+    "autofetch",
+    "consts",
+    "daisyui",
+    "elif",
+    "esbenp",
+    "Evondev",
+    "exercism",
+    "gofumpt",
+    "golangci",
+    "iconify",
+    "isort",
+    "mancuoj",
+    "Monaspace",
+    "Mononoki",
+    "nametag",
+    "nuxt",
+    "preprocesses",
+    "rustc",
+    "scminput",
+    "servemux",
+    "sicp",
+    "Snippetbox",
+    "splitn",
+    "tailwindcss",
+    "tamasfe",
+    "taze",
+    "testcase",
+    "testdata",
+    "textproto",
+    "tmpl",
+    "todos",
+    "vitepress",
+    "vitesse"
+  ],
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.colorTheme": "Moegi Space",
   "symbols.hidesExplorerArrows": false,
   "workbench.iconTheme": "symbols",
+  "workbench.colorTheme": "Moegi Black",
   "window.zoomLevel": 1
 }
