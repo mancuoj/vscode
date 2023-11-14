@@ -3,7 +3,7 @@
   "editor.fontFamily": "'Monaspace Neon', 霞鹜文楷",
   "editor.fontWeight": "600",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
-  "editor.fontSize": 25,
+  "editor.fontSize": 24,
   "editor.lineHeight": 2.4,
   "editor.tabSize": 2,
   "editor.mouseWheelZoom": true,
@@ -11,7 +11,7 @@
   "editor.guides.indentation": false,
   "editor.guides.bracketPairs": false,
 
-  "terminal.integrated.fontFamily": "Mononoki Nerd Font Mono, 苹方-简",
+  "terminal.integrated.fontFamily": "'Mononoki Nerd Font Mono', '苹方-简','终端更纱黑体-简 Nerd'",
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.lineHeight": 1.1,
   "terminal.integrated.cursorStyle": "line",
@@ -42,7 +42,6 @@
   },
   "diffEditor.ignoreTrimWhitespace": true,
 
-
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.semi": false,
   "prettier.singleQuote": true,
@@ -72,8 +71,6 @@
   "[go.mod]": {
     "editor.defaultFormatter": "golang.go"
   },
-  "go.formatTool": "gofumpt",
-  "go.lintTool": "golangci-lint",
   "go.inlayHints.constantValues": true,
   "go.inlayHints.parameterNames": true,
   "go.inlayHints.rangeVariableTypes": true,
@@ -81,22 +78,13 @@
   "go.inlayHints.compositeLiteralFields": true,
   "go.inlayHints.compositeLiteralTypes": true,
   "go.inlayHints.functionTypeParameters": true,
- 
-
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false
-  },
 
   "search.exclude": {
     "**/.git": true,
     "**/.github": true,
-    "**/.nuxt": true,
-    "**/.output": true,
     "**/.pnpm": true,
     "**/.vscode": true,
     "**/.yarn": true,
-    "**/bower_components": true,
     "**/dist/**": true,
     "**/logs": true,
     "**/node_modules": true,
@@ -110,45 +98,10 @@
   "git.confirmSync": false,
   "git.autofetch": false,
 
-  "cSpell.userWords": [
-    "antfu",
-    "autofetch",
-    "consts",
-    "daisyui",
-    "elif",
-    "esbenp",
-    "Evondev",
-    "exercism",
-    "gofumpt",
-    "golangci",
-    "iconify",
-    "isort",
-    "mancuoj",
-    "Monaspace",
-    "Mononoki",
-    "nametag",
-    "nuxt",
-    "preprocesses",
-    "rustc",
-    "scminput",
-    "servemux",
-    "sicp",
-    "Snippetbox",
-    "splitn",
-    "tailwindcss",
-    "tamasfe",
-    "taze",
-    "testcase",
-    "testdata",
-    "textproto",
-    "tmpl",
-    "todos",
-    "vitepress",
-    "vitesse"
-  ],
+  "cSpell.userWords": ["autofetch", "esbenp", "Evondev", "isort", "mancuoj", "Moegi", "Monaspace", "Mononoki", "tamasfe"],
   "workbench.productIconTheme": "fluent-icons",
   "symbols.hidesExplorerArrows": false,
   "workbench.iconTheme": "symbols",
-  "workbench.colorTheme": "Moegi Black",
-  "window.zoomLevel": 1
+  "workbench.colorTheme": "Moegi Space",
+  "window.zoomLevel": 1.4
 }
