@@ -1,21 +1,22 @@
 {
   // Neon Argon Xenon Radon Krypton
-  "editor.fontFamily": "'Monaspace Neon', 霞鹜文楷",
-  "editor.fontWeight": "600",
+  "editor.fontFamily": "'Input Mono', 'Monaspace Neon', '苹方-简'",
+  "editor.fontWeight": "400",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
   "editor.fontSize": 24,
-  "editor.lineHeight": 2.4,
+  "editor.lineHeight": 2.1,
   "editor.tabSize": 2,
   "editor.mouseWheelZoom": true,
   "editor.lineNumbers": "interval",
   "editor.guides.indentation": false,
   "editor.guides.bracketPairs": false,
 
-  "terminal.integrated.fontFamily": "'Mononoki Nerd Font Mono', '苹方-简','终端更纱黑体-简 Nerd'",
+  "terminal.integrated.fontFamily": "'Mononoki Nerd Font Mono', '苹方-简'",
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.lineHeight": 1.1,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
 
   "editor.cursorBlinking": "smooth",
   "editor.smoothScrolling": true,
@@ -23,50 +24,68 @@
   "workbench.list.smoothScrolling": true,
   "terminal.integrated.smoothScrolling": true,
 
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "security.workspace.trust.enabled": false,
-  "window.menuBarVisibility": "compact",
-  "workbench.startupEditor": "none",
-  "workbench.editor.closeOnFileDelete": true,
-
   "editor.linkedEditing": true,
   "editor.suggestSelection": "first",
   "editor.suggest.insertMode": "replace",
-  "editor.minimap.enabled": false,
-  "editor.stickyScroll.enabled": true,
-  "editor.hover.sticky": true,
   "editor.inlineSuggest.enabled": true,
   "editor.quickSuggestions": {
     "strings": true
   },
   "diffEditor.ignoreTrimWhitespace": true,
 
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
-  "prettier.printWidth": 200,
-  "[toml]": {
-    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  "prettier.printWidth": 160,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "literals",
+  "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
+
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "svelte.enable-ts-plugin": true,
+
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.tabSize": 4,
+    "editor.fontFamily": "Monaspace Krypton",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
+      "source.fixAll": true,
       "source.organizeImports": true
-    }
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff"
   },
-  "isort.args": ["--profile", "black"],
+
   "[rust]": {
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
-    "editor.tabSize": 4,
-    "editor.fontFamily": "'Monaspace Argon', 霞鹜文楷"
   },
+
   "[go]": {
-    "editor.defaultFormatter": "golang.go",
     "editor.tabSize": 4,
-    "editor.fontFamily": "'Monaspace Argon', 霞鹜文楷"
+    "editor.defaultFormatter": "golang.go",
   },
   "[go.mod]": {
     "editor.defaultFormatter": "golang.go"
@@ -78,6 +97,22 @@
   "go.inlayHints.compositeLiteralFields": true,
   "go.inlayHints.compositeLiteralTypes": true,
   "go.inlayHints.functionTypeParameters": true,
+  "go.toolsManagement.autoUpdate": true,
+
+
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+
 
   "search.exclude": {
     "**/.git": true,
@@ -98,10 +133,42 @@
   "git.confirmSync": false,
   "git.autofetch": false,
 
-  "cSpell.userWords": ["autofetch", "esbenp", "Evondev", "isort", "mancuoj", "Moegi", "Monaspace", "Mononoki", "tamasfe"],
-  "workbench.productIconTheme": "fluent-icons",
+  "cSpell.userWords": [
+    "autofetch",
+    "charliermarsh",
+    "esbenp",
+    "Evondev",
+    "isort",
+    "mancuoj",
+    "Moegi",
+    "Monaspace",
+    "Mononoki",
+    "quokka",
+    "signup",
+    "struct",
+    "tailwindcss",
+    "tamasfe",
+    "Vitesse",
+    "yzhang"
+  ],
+
+  "remote.SSH.remotePlatform": {
+    "47.116.70.23": "linux"
+  },
+
   "symbols.hidesExplorerArrows": false,
+  "security.workspace.trust.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": true,
+  "editor.hover.sticky": true,
+  "window.menuBarVisibility": "compact",
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "right",
+  "workbench.productIconTheme": "fluent-icons",
   "workbench.iconTheme": "symbols",
-  "workbench.colorTheme": "Moegi Space",
-  "window.zoomLevel": 1.4
+  "workbench.colorTheme": "Moegi Black",
+  "window.zoomLevel": 1.2,
 }
