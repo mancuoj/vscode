@@ -99,7 +99,6 @@
   "go.inlayHints.functionTypeParameters": true,
   "go.toolsManagement.autoUpdate": true,
 
-
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
@@ -113,6 +112,21 @@
     "editor.defaultFormatter": "tamasfe.even-better-toml"
   },
 
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true,
+    "plaintext": false,
+    "yaml": false
+  },
+  "github.copilot.chat.localeOverride": "zh-CN",
+  "github.copilot.chat.welcomeMessage": "never",
+
+  "gitlens.codeLens.enabled": false,
+  "gitlens.showWhatsNewAfterUpgrades": false,
+  "gitlens.showWelcomeOnInstall": false,
+
+  "git.confirmSync": false,
+  "git.autofetch": false,
 
   "search.exclude": {
     "**/.git": true,
@@ -129,9 +143,6 @@
     "**/tmp": true,
     "**/yarn.lock": true
   },
-
-  "git.confirmSync": false,
-  "git.autofetch": false,
 
   "cSpell.userWords": [
     "autofetch",
@@ -169,6 +180,6 @@
   "workbench.sideBar.location": "right",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.iconTheme": "symbols",
-  "workbench.colorTheme": "Moegi Black",
-  "window.zoomLevel": 1.2,
+  "workbench.colorTheme": "Vitesse Dark",
+  "window.zoomLevel": 1.2
 }
