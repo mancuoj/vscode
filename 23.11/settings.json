@@ -37,13 +37,18 @@
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
   "prettier.printWidth": 160,
+  "prettier.endOfLine": "auto",
+
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
@@ -68,7 +73,6 @@
 
   "[python]": {
     "editor.tabSize": 4,
-    "editor.fontFamily": "Monaspace Krypton",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
       "source.fixAll": true,
@@ -76,16 +80,22 @@
     },
     "editor.defaultFormatter": "charliermarsh.ruff"
   },
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.inlayHints.callArgumentNames": "all",
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.pytestParameters": true,
+  "python.analysis.inlayHints.variableTypes": true,
 
   "[rust]": {
     "editor.tabSize": 4,
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
 
   "[go]": {
     "editor.tabSize": 4,
-    "editor.defaultFormatter": "golang.go",
+    "editor.defaultFormatter": "golang.go"
   },
   "[go.mod]": {
     "editor.defaultFormatter": "golang.go"
@@ -111,6 +121,7 @@
   "[toml]": {
     "editor.defaultFormatter": "tamasfe.even-better-toml"
   },
+  "tailwindCSS.emmetCompletions": true,
 
   "github.copilot.enable": {
     "*": true,
@@ -149,6 +160,7 @@
     "charliermarsh",
     "esbenp",
     "Evondev",
+    "gonic",
     "isort",
     "mancuoj",
     "Moegi",
@@ -166,8 +178,10 @@
   "remote.SSH.remotePlatform": {
     "47.116.70.23": "linux"
   },
-
+  
+  "where-am-i.textTransfrom": "lowercase",
   "symbols.hidesExplorerArrows": false,
+
   "security.workspace.trust.enabled": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
@@ -180,6 +194,6 @@
   "workbench.sideBar.location": "right",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.iconTheme": "symbols",
-  "workbench.colorTheme": "Vitesse Dark",
+  "workbench.colorTheme": "Evondev Dracula Author",
   "window.zoomLevel": 1.2
 }
