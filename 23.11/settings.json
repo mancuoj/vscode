@@ -1,7 +1,7 @@
 {
   // Neon Argon Xenon Radon Krypton
-  "editor.fontFamily": "'Input Mono', 'Monaspace Neon', '苹方-简'",
-  "editor.fontWeight": "400",
+  "editor.fontFamily": "'Nova Nerd Font', 'Input Mono', 'Monaspace Neon', '苹方-简'",
+  "editor.fontWeight": "800",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
   "editor.fontSize": 24,
   "editor.lineHeight": 2.1,
@@ -42,29 +42,33 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "sortcss.sortOnSave": true,
+
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "typescript.inlayHints.enumMemberValues.enabled": true,
-  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "typescript.inlayHints.parameterNames.enabled": "literals",
-  "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
-  "typescript.inlayHints.parameterTypes.enabled": true,
-  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "typescript.inlayHints.variableTypes.enabled": true,
-  "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
+  // "typescript.inlayHints.enumMemberValues.enabled": true,
+  // "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  // "typescript.inlayHints.parameterNames.enabled": "literals",
+  // "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+  // "typescript.inlayHints.parameterTypes.enabled": true,
+  // "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  // "typescript.inlayHints.variableTypes.enabled": true,
+  // "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
 
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
@@ -138,6 +142,7 @@
 
   "git.confirmSync": false,
   "git.autofetch": false,
+  "git.openRepositoryInParentFolders": "never",
 
   "search.exclude": {
     "**/.git": true,
@@ -156,8 +161,11 @@
   },
 
   "cSpell.userWords": [
+    "antfu",
     "autofetch",
     "charliermarsh",
+    "degit",
+    "Dragonfruit",
     "esbenp",
     "Evondev",
     "gonic",
@@ -166,8 +174,11 @@
     "Moegi",
     "Monaspace",
     "Mononoki",
+    "Passionfruit",
+    "pytest",
     "quokka",
     "signup",
+    "sortcss",
     "struct",
     "tailwindcss",
     "tamasfe",
@@ -191,9 +202,8 @@
   "window.menuBarVisibility": "compact",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.startupEditor": "none",
-  "workbench.sideBar.location": "right",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.iconTheme": "symbols",
-  "workbench.colorTheme": "Evondev Dracula Author",
-  "window.zoomLevel": 1.2
+  "workbench.colorTheme": "Moegi Dark",
+  "window.zoomLevel": 1,
 }
