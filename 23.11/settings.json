@@ -23,6 +23,7 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "workbench.list.smoothScrolling": true,
   "terminal.integrated.smoothScrolling": true,
+  "diffEditor.ignoreTrimWhitespace": true,
 
   "editor.linkedEditing": true,
   "editor.suggestSelection": "first",
@@ -31,7 +32,10 @@
   "editor.quickSuggestions": {
     "strings": true
   },
-  "diffEditor.ignoreTrimWhitespace": true,
+
+  "autocorrect.enable": false,
+  "autocorrect.enableLint": false,
+  "autocorrect.formatOnSave": false,
 
   "prettier.semi": false,
   "prettier.singleQuote": true,
@@ -42,11 +46,16 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "sortcss.sortOnSave": true,
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass"
+  ],
 
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -55,6 +64,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
+
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -79,8 +89,8 @@
     "editor.tabSize": 4,
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-      "source.fixAll": true,
-      "source.organizeImports": true
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
     },
     "editor.defaultFormatter": "charliermarsh.ruff"
   },
@@ -125,7 +135,6 @@
   "[toml]": {
     "editor.defaultFormatter": "tamasfe.even-better-toml"
   },
-  "tailwindCSS.emmetCompletions": true,
 
   "github.copilot.enable": {
     "*": true,
@@ -144,6 +153,7 @@
   "git.autofetch": false,
   "git.openRepositoryInParentFolders": "never",
 
+  "search.useIgnoreFiles": true,
   "search.exclude": {
     "**/.git": true,
     "**/.github": true,
@@ -162,6 +172,7 @@
 
   "cSpell.userWords": [
     "antfu",
+    "autocorrect",
     "autofetch",
     "charliermarsh",
     "degit",
@@ -189,8 +200,6 @@
   "remote.SSH.remotePlatform": {
     "47.116.70.23": "linux"
   },
-  
-  "where-am-i.textTransfrom": "lowercase",
   "symbols.hidesExplorerArrows": false,
 
   "security.workspace.trust.enabled": false,
@@ -199,11 +208,14 @@
   "editor.minimap.enabled": false,
   "editor.stickyScroll.enabled": true,
   "editor.hover.sticky": true,
+  "workbench.tree.enableStickyScroll": true,
+  // "terminal.integrated.stickyScroll.enabled": true,
   "window.menuBarVisibility": "compact",
+  "workbench.activityBar.location": "top",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.startupEditor": "none",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.iconTheme": "symbols",
-  "workbench.colorTheme": "Moegi Dark",
+  "workbench.iconTheme": "file-icons",
+  "workbench.colorTheme": "GitHub Dark Default",
   "window.zoomLevel": 1,
 }
