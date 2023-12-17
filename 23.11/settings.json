@@ -1,10 +1,10 @@
 {
   // Neon Argon Xenon Radon Krypton
   "editor.fontFamily": "'Nova Nerd Font', 'Input Mono', 'Monaspace Neon', '苹方-简'",
-  "editor.fontWeight": "800",
+  "editor.fontWeight": "600",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
   "editor.fontSize": 24,
-  "editor.lineHeight": 2.1,
+  "editor.lineHeight": 2,
   "editor.tabSize": 2,
   "editor.mouseWheelZoom": true,
   "editor.lineNumbers": "interval",
@@ -217,5 +217,4 @@
   "workbench.productIconTheme": "fluent-icons",
   "workbench.iconTheme": "file-icons",
   "workbench.colorTheme": "GitHub Dark Default",
-  "window.zoomLevel": 1,
 }
